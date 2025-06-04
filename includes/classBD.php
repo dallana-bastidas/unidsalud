@@ -2,9 +2,17 @@
 
 class ConexionBD {
     private $host = 'localhost';
-    private $db = 'unidsalud-dallana';
-    private $user = 'root';
-    private $pass = '';
+    
+    // Descomentar esto si se esta en local (xampp)
+    // private $db = 'unidsalud-dallana';
+    // private $user = 'root';
+    // private $pass = '';
+
+    // Estas son las credenciales de la BD
+    private $db = 'laborato_paginawp';
+    private $user = 'laborato_rootwp';
+    private $pass = 'HLHQyTRUpX7BU1iMZFfz';
+    
     private $charset = 'utf8mb4';
     private $pdo;
 
